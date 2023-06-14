@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: ["./src/**/*.{html,jsx}"],
   theme: {
@@ -10,6 +11,9 @@ export default {
       fontFamily: {
         'manrope': ['Manrope', 'sans-serif'],
       },
+      backgroundImage: {
+        "hero-section": "url('/src/assets/hero-background.jpg')"
+      }
     },
   },
   plugins: [
